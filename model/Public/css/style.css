@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color_bg: #f0f1f5;
+  --color_blue_footer: #222222;
+  --color_btn_nav: #ed8f42;
+  --color_btn_blue: #337ab7;
+  --color_text_grey: #101010;
+}
+/* ----header ---- */
+body {
+  background-color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.container {
+  width: 80% !important;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.card img {
+  width: 100%;
+  height: 220px;
+  border-radius: 7px;
+  object-fit: cover;
+  object-position: top;
+}
+.card img:hover {
+  transform: scale(1.05);
+  margin-bottom: 20px;
+  transition: all 0.3s;
+}
+.card_banniere {
+  background-image: url("../image/karim-manjra-cW3nDFVpi10-unsplash.jpg");
+  background-size: cover;
+  height: 400px;
+}
+.card {
+  margin-bottom: 40px;
+}
+.container_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_navbar {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 7px 12px;
+  background-color: white;
+  border: 1px solid var(--color_btn_nav);
+  border-radius: 7px;
+  color: var(--color_btn_nav);
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.btn_navbar:hover {
+  text-decoration: none;
+  transition: color 0.7s;
+  color: var(--color_btn_blue);
+  border: 1px solid var(--color_btn_blue);
+}
+
+/* -----card_section ---- */
+
+.row_course {
+  margin-top: 85px;
+  margin-bottom: 50px;
+}
+
+.circle_certificate {
+  text-align: center;
+}
+.card-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 19px;
+}
+.text_choice1 {
+  font-weight: bold;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.text_choice2 {
+  font-weight: bold;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.text_choice_p {
+  font-size: 19px;
+  margin-left: 16px;
+}
+.text_body {
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.text_choice {
+  padding-left: 20px;
+  margin-bottom: 23px;
+}
+.container_certificate {
+  padding-top: 28px;
+}
+.row_contact_assistance {
+  margin: 80px 0px 110px 0px;
+}
+.row_certificate {
+  margin-top: 40px;
+  margin-bottom: 84px;
+}
+.title_circle_certificate,
+.text_circle_certificate {
+  text-align: center;
+}
+.text_circle_certificate {
+  font-size: 1.3em;
+}
+.title_circle_certificate {
+  color: #003668;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.row_section_video {
+  padding: 85px 0px;
+}
+.title_section_video {
+  background-color: var(--color_btn_blue);
+  color: white;
+}
+.title_assistance {
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.P_text_assistance {
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.link_write_we {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  display: inline-block;
+}
+.link_write_we:hover {
+  padding: 7px 17px;
+  background-color: #89bdeb;
+  border-radius: 9px;
+  color: white;
+  text-decoration: none;
+}
+.text_checkbox {
+  font-size: 18px;
+}
+.row-form_contact_us {
+  margin-top: 70px;
+}
+.input_contactez_nous {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid grey;
+  outline: none;
+  padding: 13px 0;
+  font-size: 17px;
+}
+.input_contactez_nous:focus-within {
+  border-bottom: 3px solid #337ab7;
+}
+.label_form_contact_us {
+  font-weight: bold;
+  font-size: 20px;
+}
+.text_condition_formulaire {
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.4em;
+}
+.mt_checkbox {
+  margin-top: 40px;
+}
+.m_row_chexbox2 {
+  margin: 26px 0px;
+}
+.case_btn {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.btn_submit_form {
+  padding: 7px 23px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* ---- connexion ----- */
+
+.container_center {
+  margin: 0 auto;
+  width: 81%;
+  text-align: center;
+}
+.row_heigth_connexion {
+  height: 100vh;
+}
+.title1_connexion {
+  font-weight: bold;
+  font-size: 45px;
+  color: #778dcb;
+}
+.row_size {
+  min-height: 100vh ;
+}
+
+.title2connexion {
+    margin-top: 38px;
+    margin-bottom: 43px;
+    text-align: center;
+    font-size: 30px;
+    color: #337ab7;
+    font-weight: bold;
+}
+.row_network_compte {
+  display: flex;
+  justify-content: space-between;
+}
+.social_btn_connect {
+    display: flex;
+    padding: 6px 10px;
+    border-radius: 9px;
+    border: 1px solid #faf8fe;
+    outline: none;
+    box-shadow: 1px 2px 7px #271d3c;
+}
+.social_btn_connect div{
+    display: flex;
+    align-items: center;    
+}
+.icon_size_social {
+  font-size: 27px;
+  color:#1877f2;
+}
+.social_btn_connect span {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    /* font-weight: bold; */
+    margin-right: 10px;
+    text-transform: capitalize;
+}
+.social_btn_connect:hover {
+  text-decoration: none;
+}
+.row_or {
+  margin: 59px 0px;
+}
+.bar_or {
+  margin: 0 auto;
+  width: 130px;
+  height: 3px;
+  background-color: grey;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.header_email {
+  font-size: 19px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.text_or {
+  display: block;
+  position: absolute;
+  top: 17%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  font-size: 26px;
+  background-color: white;
+}
+.container_input_generale {
+    margin-top: 29px;
+    background-color: #faf8fe;
+    padding: 13px 6px 6px 6px;
+    margin-bottom: 30px;
+}
+.container_input_generale:focus-within{
+   border-bottom: 4px solid var(--color_btn_blue);
+}
+.container_input_generale:focus-within ~.label_input_connexion{
+    color:#337ab7 ;
+}
+.link_forgot_password{
+    display: inline-block;
+    margin-top: 5px;
+}
+.label_input_connexion{
+    text-align: left;
+    color: grey;
+    text-transform: capitalize;
+  
+}
+.input_connexion{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #faf8fe
+}
+
+
+.btn_submit_connexion{
+    display: inline-block;
+    background-color: #1877f2;
+    padding: 10px 17px;
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+.btn_submit_connexion:hover{
+    text-decoration: none;
+    color:white
+}
+
+.forget_passsword {
+    font-size: 18px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    margin-top: 20px;
+}
+.bg_right_connexion {
+    position: fixed;
+    height: 100vh;
+   
+}
+.card_left{
+    position: relative;
+    padding: 0;
+}
+/* ----footer ---- */
+
+
+
+footer {
+  background-color: #222222;
+  padding-top: 20px;
+  min-height: 200px;
+  color: white;
+  padding-bottom: 30px;
+}
+.card_footer1 a {
+  display: block;
+  margin-bottom: 10px;
+}
+.modal-dialog {
+  color: black;
+}
