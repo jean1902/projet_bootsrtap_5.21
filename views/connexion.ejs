@@ -37,26 +37,27 @@
                 <div><i class="fa fa-apple icon_size_social"></i></div>
               </a>
             </div>
-            <div class="row_or">
+            <form method="post" action="/connexion" class="row_or">
               <div class="bar_or">
                 <span class="text_or">ou </span>
                
               </div>
               <span  class="header_email">Connectez-vous avec votre adresse e-mail </span>
               <div class="container_input_generale">
-                  <p for="email" class="label_input_connexion"> Adresse Email</p>
+                  <input type="email" class="email_input_connexion input_connexion" placeholder="philihp@gmail.com" name="email_user">
                <div class="container-input">
-                <input type="text" id="email" class="input_connexion"placeholder="xyw@gmail.com" />
+                <input type="password" id="email" class="input_connexion" value="jeanrodolphe" name="password_user" />
                </div>
               </div>
-              <a href="" class="btn_submit_connexion">Continuez </a>
+              
+              <button class="btn_submit_connexion" type="submit">Continuez </button>
               <div class="forget_passsword">
                 Vous n'avez pas encore de compte ?
                 <a href="/inscription" class="link_forgot_password ">
                   Inscrivez-vous gratuitement</a
                 >
               </div>
-            </div>
+            </form>
           </div>
         </div>
         <div class="col-md-6 card_left ">
